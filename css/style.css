@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxanium', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header CSS */
+.header_body {
+    background: linear-gradient(135deg, #3d85c6, #0b5394);
+    border-bottom: 2px solid #0b5394;
+}
+
+.header {
+    margin: 0;
+    padding: 25px;
+    font-size: 2rem;
+    color: #e0e0e0;
+    text-align: center;
+    text-shadow: 0 0 20px #00ffcc;
+}
+
+/* Navbar CSS */
+.navbar_body {
+    background: #0a0a0a;
+}
+
+.navbar {
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-top: 2px solid #0b5394;
+    border-bottom: 2px solid #0b5394;
+
+}
+
+.navbar_link {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #e0e0e0;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.navbar_link:hover {
+    background-color: #ffffff;
+    color: #0b5394;
+    box-shadow: 0 0 20px #3d85c6;
+}
+
+/* Side Navigation CSS */
+.sidenav_body {
+    background: #0a0a0a;
+}
+
+.sidenav {
+    border: 2px solid #0b5394;
+    border-radius: 10px;
+    padding: 15px;
+    background: #0a0a0a;
+    color: #e0e0e0;
+    width: 220px;
+}
+
+.sidenav_title {
+  color: #3d85c6;
+  font-weight: bold;
+  text-shadow: 0 0 10px #3d85c6;
+}
+
+.sidenav_list {
+  list-style: none;
+}
+
+.sidenav_link {
+    color: #e0e0e0;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.sidenav_link:hover {
+    background-color: #3d85c6;
+    color: #0a0a0a;
+    box-shadow: 0 0 20px #3d85c6;
+}
+
+/* Home CSS */
+.main_body {
+    background: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 20px #3d85c6;
+    letter-spacing: 3px;
+}
+
+.profile_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #3d85c6;
+    box-shadow: 0 0 30px #3d85c6;
+    margin-bottom: 25px;
+}
+
+.mybio {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #3d85c6;
+    text-shadow: 0 0 8px #3d85c6;
+}
+
+.bio_list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: 500px;
+    background: linear-gradient(135deg, #3d85c6, #0b5394);
+    border: 1px solid #0b5394;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #0b5394;
+}
+
+.bio_item {
+    padding: 8px 0;
+    border-bottom: 1px solid #3d85c6;
+    font-size: 1rem;
+}
+
+.bio_bold {
+  color: #00ffcc;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+/* My Study CSS */
+.study_category {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.study_details {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.study_item {
+  padding: 6px 0;
+  border-bottom: 1px solid #00ffcc;
+  font-size: 1rem;
+}
+
+/* Gallery CSS */
+.gallery_marquee {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.gallery_image {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery_link:hover .gallery_image {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #3d85c6;
+}
+
+/* Footer CSS */
+.footer_body {
+    background: linear-gradient(135deg, #3d85c6, #0b5394);
+    border-top: 2px solid #0b5394;
+}
+
+.footer {
+    margin: 0;
+    padding: 15px;
+    color: #e0e0e0;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px #00ffcc;
+}
