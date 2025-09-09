@@ -28,7 +28,7 @@ a {
     font-size: 2rem;
     color: #e0e0e0;
     text-align: center;
-    text-shadow: 0 0 20px #00ffcc;
+    text-shadow: 0 0 20px #e0e0e0;
 }
 
 /* Navbar CSS */
@@ -151,7 +151,7 @@ a {
 }
 
 .bio_bold {
-  color: #00ffcc;
+  color: #e0e0e0;
   font-weight: bold;
   margin-right: 6px;
 }
@@ -160,7 +160,7 @@ a {
 .study_category {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #00ffcc;
+  color: #e0e0e0;
 }
 
 .study_details {
@@ -170,7 +170,7 @@ a {
 
 .study_item {
   padding: 6px 0;
-  border-bottom: 1px solid #00ffcc;
+  border-bottom: 1px solid #e0e0e0;
   font-size: 1rem;
 }
 
@@ -205,5 +205,5 @@ a {
     text-align: center;
     font-size: 1rem;
     letter-spacing: 2px;
-    text-shadow: 0 0 15px #00ffcc;
+    text-shadow: 0 0 15px #e0e0e0;
 }
