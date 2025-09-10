@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'fredoka', cursive;
+}
+
+/* Header CSS */
+.header {
+    background-image: url('../img/header.jpeg');
+    background-size: cover;
+    text-align: center;
+    color: #FFF275;
+    padding: 60px 20px;
+    border-bottom: 2px solid #6A0DAD;
+}
+
+.header_title {
+    font-size: 2.5em;
+    text-shadow: #FFF275 2px 2px 5px;
+}
+
+/* Navbar CSS */
+.nav {
+    background: #9B30FF;
+    padding: 15px;
+    text-align: center;
+    box-shadow: #5A0D9D 10px 10px 20px;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav_link {
+    color: #FFD93D;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav_link:hover {
+    color: #fff;
+}
+
+/* Container Main */
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar CSS */
+.sidebar {
+    width: 20%;
+    background-color: #FFD93D;
+    color: #9B30FF;
+    padding: 10px;
+}
+
+.sidebar_title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar_list {
+    padding-left: 20px;
+}
+
+.sidebar_subtitle {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar_link {
+    text-decoration: none;
+    color: #9B30FF;
+    display: block;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.sidebar_link:hover {
+    color: #5A0D9D;
+}
+
+/* Main Content CSS */
+.content {
+    width: 60%;
+    background-color: #FFF275;
+    color: #9B30FF;
+    padding: 20px;
+    text-align: center;
+}
+
+.content_title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Card CSS */
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #9B30FF;
+    color: #FFF275;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px #5A0D9D;
+}
+
+.card_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card_title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card_text {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card_btn {
+    text-decoration: none;
+    background-color: #6A0DAD;
+    color: #FFF275;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card_btn:hover {
+    background-color: #5A0D9D;
+    cursor: pointer;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #6A0DAD;
+    color: #FFF275;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_text {
+    font-size: 1em;
+    margin: 0;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #FFF275;
+}
+
+.footer_link:hover {
+    color: #FFD93D;
+}
